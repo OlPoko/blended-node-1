@@ -1,16 +1,17 @@
 {
-  "name": "goit-node-js",
+  "name": "blended-node-1",
   "version": "1.0.0",
-  "description": "goit-node-js",
+  "description": "blended-node-1",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "get-all": "node src/scripts/getAllContacts",
-    "generate": "node src/scripts/generateContacts.js",
-    "add-one": "node src/scripts/addOneContact.js",
-    "count": "node src/scripts/countContacts.js",
-    "remove-last": "node src/scripts/removeLastContact.js",
-    "remove-all": "node src/scripts/removeAllContacts.js"
+    "generate": "node src/scripts/generateProducts.js",
+    "get-products-by-min-price": "node src/scripts/getProductsByMinPrice.js",
+    "get-unique-categories": "node src/scripts/getUniqueCategories.js",
+    "get-total-price": "node src/scripts/getTotalPrice.js",
+    "group-products": "node src/scripts/groupProductsByCategories.js",
+    "modify-products": "node src/scripts/modifyProducts.js",
+    "dell-products": "node src/scripts/dellAllProducts.js"
   },
   "keywords": [],
   "author": "",
